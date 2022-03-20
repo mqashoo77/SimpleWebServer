@@ -104,8 +104,8 @@ def get(Request, connection, clientAddress):
                 htmlData += "<div class='item clearfix'><div class='key float-left'>" + key + "</div><div " \
                                                                                               "class='value " \
                                                                                               "float-right'>" + str(
-                                                                                               dataDict[key]) + \
-                                                                                                "$</div></div> "
+                    dataDict[key]) + \
+                            "$</div></div> "
 
             listingIndex = open("serverFiles/listing.html", "r")
             htmlCode = listingIndex.read().replace("<!--REPLACE_ME-->", htmlData)
@@ -158,3 +158,4 @@ while True:
 
     # Close socket
     # server_socket.close()
+    # By Mohammad Qashoo
