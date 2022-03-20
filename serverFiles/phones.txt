@@ -1,0 +1,15 @@
+phoneA,1500
+phoneB,550
+phoneF,1500
+phoneD,5000
+phoneJ,4200
+phoneH,800
+phoneL,400
+phoneM,899
+phoneR,550
+phoneP,50
+phoneQ,7150
+phoneP,1750
+phoneM,50
+phoneN,7150
+phoneV,1750
