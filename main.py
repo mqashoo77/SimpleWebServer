@@ -157,5 +157,4 @@ while True:
     client_connection.close()
 
     # Close socket
-
     # server_socket.close()
